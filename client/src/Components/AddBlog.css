@@ -1,0 +1,52 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    
+  }
+  .addblogmain{
+    margin: 5px;
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(227, 228, 233);
+    border:5px solid rgb(190, 190, 195);
+    border-radius: 20px;
+    justify-content: center;
+    clear: both;
+  }
+  .hclass h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .form1{
+    padding: 20px;
+  }
+
+  input{
+    border: none;
+    outline: none;
+    background-color: rgba(162, 167, 154, 0.791);
+    width: 400px;
+    padding:0.5rem;
+    border-bottom: 3px solid #2c5245;
+    border-radius: 5px;
+  font-family: 'Concert One', cursive;
+  }
+  input:focus-visible {
+    outline: 2px solid #2c5245;
+    border-radius: 3px;
+  }
+
+  .button{
+    justify-content: space-evenly;
+    display: flex;
+    width: 30%;
+    align-items: center;
+    
+  }
+  .button-parent{
+    display: flex;
+    justify-content: space-evenly;
+  }
